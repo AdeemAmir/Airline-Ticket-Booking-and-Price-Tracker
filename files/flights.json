@@ -1,0 +1,4202 @@
+[
+    {
+        "flight": {
+            "name": "Airline 1",
+            "number": "1256",
+            "code": "AS1256",
+            "registration": "AU12365"
+        },
+        "departure": {
+            "date": "2024-12-06T14:16:05.898604",
+            "country": "Australia",
+            "city": "Dubbo",
+            "airport": "Dubbo"
+        },
+        "arrival": {
+            "date": "2024-12-08T01:57:55.898604",
+            "country": "Australia",
+            "city": "Parkes",
+            "airport": "Parkes"
+        },
+        "price": 10905
+    },
+    {
+        "flight": {
+            "name": "Etihad Airways",
+            "number": "4575",
+            "code": "EY4575",
+            "registration": "NZ25691"
+        },
+        "departure": {
+            "date": "2024-12-11T01:27:24.898604",
+            "country": "New Zealand",
+            "city": "Wellington",
+            "airport": "Wellington International"
+        },
+        "arrival": {
+            "date": "2024-12-12T02:29:11.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "price": 33795
+    },
+    {
+        "flight": {
+            "name": "Uzbekistan Airways",
+            "number": "508",
+            "code": "HY508",
+            "registration": "UK32017"
+        },
+        "departure": {
+            "date": "2024-12-08T04:58:24.898604",
+            "country": "China",
+            "city": "Urumqi",
+            "airport": "Urumqi"
+        },
+        "arrival": {
+            "date": "2024-12-09T13:42:41.898604",
+            "country": "Uzbekistan",
+            "city": "Tashkent",
+            "airport": "Tashkent International"
+        },
+        "price": 26285
+    },
+    {
+        "flight": {
+            "name": "Hinterland Aviation",
+            "number": "455",
+            "code": "OI455",
+            "registration": "VH-HLJ"
+        },
+        "departure": {
+            "date": "2024-12-09T12:36:05.898604",
+            "country": "United States",
+            "city": "Lizard Island",
+            "airport": "Lizard Island"
+        },
+        "arrival": {
+            "date": "2024-12-11T03:52:53.898604",
+            "country": "Australia",
+            "city": "Cairns",
+            "airport": "Cairns"
+        },
+        "price": 20070
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "8475",
+            "code": "QF8475",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T04:59:09.898604",
+            "country": "New Zealand",
+            "city": "Nelson",
+            "airport": "Nelson"
+        },
+        "arrival": {
+            "date": "2024-12-07T05:16:06.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "price": 45660
+    },
+    {
+        "flight": {
+            "name": "Emirates",
+            "number": "9824",
+            "code": "EK9824",
+            "registration": "A6-EFO"
+        },
+        "departure": {
+            "date": "2024-12-08T18:34:44.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-09T02:00:44.898604",
+            "country": "China",
+            "city": "Hong Kong Island",
+            "airport": "Hong Kong International"
+        },
+        "price": 37185
+    },
+    {
+        "flight": {
+            "name": "Tigerair Taiwan",
+            "number": "216",
+            "code": "IT216",
+            "registration": "B-50027"
+        },
+        "departure": {
+            "date": "2024-12-05T10:09:04.898604",
+            "country": "Unknown",
+            "city": "Unknown",
+            "airport": "Taiwan Taoyuan International (Chiang Kai Shek International)"
+        },
+        "arrival": {
+            "date": "2024-12-06T02:35:43.898604",
+            "country": "Japan",
+            "city": "Ota",
+            "airport": "Haneda Airport"
+        },
+        "price": 51820
+    },
+    {
+        "flight": {
+            "name": "9 Air Co",
+            "number": "1428",
+            "code": "AQ1428",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-10T04:43:53.898604",
+            "country": "United States",
+            "city": "Unknown",
+            "airport": "Holder3"
+        },
+        "arrival": {
+            "date": "2024-12-12T00:36:02.898604",
+            "country": "China",
+            "city": "Taiyuan",
+            "airport": "Taiyuan"
+        },
+        "price": 39345
+    },
+    {
+        "flight": {
+            "name": "Texel Air",
+            "number": "94",
+            "code": "Holder4",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T18:08:49.898604",
+            "country": "Australia",
+            "city": "Launceston",
+            "airport": "Launceston"
+        },
+        "arrival": {
+            "date": "2024-12-07T04:19:42.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 51995
+    },
+    {
+        "flight": {
+            "name": "CareFlight",
+            "number": "28",
+            "code": "Holder5",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T00:37:56.898604",
+            "country": "Australia",
+            "city": "Unknown",
+            "airport": "Alyangula"
+        },
+        "arrival": {
+            "date": "2024-12-08T17:24:54.898604",
+            "country": "Australia",
+            "city": "Unknown",
+            "airport": "Nhulunbuy"
+        },
+        "price": 59605
+    },
+    {
+        "flight": {
+            "name": "Tianjin Air Cargo",
+            "number": "3844",
+            "code": "HT3844",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-10T23:33:45.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "arrival": {
+            "date": "2024-12-11T00:16:59.898604",
+            "country": "China",
+            "city": "Linyi",
+            "airport": "Linyi"
+        },
+        "price": 34865
+    },
+    {
+        "flight": {
+            "name": "Korean Air",
+            "number": "319",
+            "code": "KE319",
+            "registration": "HL7603"
+        },
+        "departure": {
+            "date": "2024-12-05T22:33:12.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "arrival": {
+            "date": "2024-12-07T10:34:29.898604",
+            "country": "China",
+            "city": "Baiyun District",
+            "airport": "Guangzhou Baiyun International"
+        },
+        "price": 20845
+    },
+    {
+        "flight": {
+            "name": "Korean Air",
+            "number": "327",
+            "code": "KE327",
+            "registration": "HL8075"
+        },
+        "departure": {
+            "date": "2024-12-07T15:23:57.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "arrival": {
+            "date": "2024-12-08T09:12:06.898604",
+            "country": "China",
+            "city": "Xianyang",
+            "airport": "Xianyang"
+        },
+        "price": 33810
+    },
+    {
+        "flight": {
+            "name": "Asiana Airlines",
+            "number": "9280",
+            "code": "OZ9280",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T10:26:25.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-08T03:46:38.898604",
+            "country": "South Korea",
+            "city": "Gimhae-si",
+            "airport": "Gimhae"
+        },
+        "price": 54775
+    },
+    {
+        "flight": {
+            "name": "Air Busan",
+            "number": "602",
+            "code": "BX602",
+            "registration": "HL8394"
+        },
+        "departure": {
+            "date": "2024-12-08T15:54:35.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-08T22:47:29.898604",
+            "country": "South Korea",
+            "city": "Gimhae-si",
+            "airport": "Gimhae"
+        },
+        "price": 29115
+    },
+    {
+        "flight": {
+            "name": "flydubai",
+            "number": "6399",
+            "code": "FZ6399",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-09T11:03:46.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-10T13:08:24.898604",
+            "country": "United Arab Emirates",
+            "city": "Dubai",
+            "airport": "Dubai"
+        },
+        "price": 20780
+    },
+    {
+        "flight": {
+            "name": "Garuda Indonesia",
+            "number": "8855",
+            "code": "GA8855",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T04:44:29.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-06T08:13:45.898604",
+            "country": "United Arab Emirates",
+            "city": "Dubai",
+            "airport": "Dubai"
+        },
+        "price": 52125
+    },
+    {
+        "flight": {
+            "name": "Emirates",
+            "number": "399",
+            "code": "EK399",
+            "registration": "A6-ENA"
+        },
+        "departure": {
+            "date": "2024-12-07T02:46:19.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T06:28:17.898604",
+            "country": "United Arab Emirates",
+            "city": "Dubai",
+            "airport": "Dubai"
+        },
+        "price": 48710
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9051",
+            "code": "CF9051",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T18:51:53.898604",
+            "country": "China",
+            "city": "Haikou City",
+            "airport": "Haikou"
+        },
+        "arrival": {
+            "date": "2024-12-08T05:34:45.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 60290
+    },
+    {
+        "flight": {
+            "name": "China Southern Airlines",
+            "number": "305",
+            "code": "CZ305",
+            "registration": "B-1293"
+        },
+        "departure": {
+            "date": "2024-12-08T01:52:50.898604",
+            "country": "China",
+            "city": "Baiyun District",
+            "airport": "Guangzhou Baiyun International"
+        },
+        "arrival": {
+            "date": "2024-12-09T05:14:37.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "price": 23395
+    },
+    {
+        "flight": {
+            "name": "Atlas Air",
+            "number": "8193",
+            "code": "5Y8193",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T17:22:30.898604",
+            "country": "China",
+            "city": "Unknown",
+            "airport": "Xiamen"
+        },
+        "arrival": {
+            "date": "2024-12-07T04:21:36.898604",
+            "country": "United States",
+            "city": "Anchorage",
+            "airport": "Ted Stevens Anchorage International Airport"
+        },
+        "price": 56800
+    },
+    {
+        "flight": {
+            "name": "Atlas Air",
+            "number": "8856",
+            "code": "5Y8856",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T15:23:59.898604",
+            "country": "China",
+            "city": "Unknown",
+            "airport": "Xiamen"
+        },
+        "arrival": {
+            "date": "2024-12-09T00:42:20.898604",
+            "country": "United States",
+            "city": "Anchorage",
+            "airport": "Ted Stevens Anchorage International Airport"
+        },
+        "price": 17445
+    },
+    {
+        "flight": {
+            "name": "Xiamen Airlines",
+            "number": "825",
+            "code": "MF825",
+            "registration": "B-1356"
+        },
+        "departure": {
+            "date": "2024-12-06T19:43:40.898604",
+            "country": "China",
+            "city": "Unknown",
+            "airport": "Xiamen"
+        },
+        "arrival": {
+            "date": "2024-12-07T10:08:44.898604",
+            "country": "United Kingdom",
+            "city": "London",
+            "airport": "Charles De Gaulle"
+        },
+        "price": 12045
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9136",
+            "code": "YG9136",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-09T17:07:27.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-11T01:08:49.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 20360
+    },
+    {
+        "flight": {
+            "name": "China Cargo",
+            "number": "248",
+            "code": "CK248",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T17:40:25.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T00:31:42.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 26725
+    },
+    {
+        "flight": {
+            "name": "SriLankan Airlines",
+            "number": "3345",
+            "code": "UL3345",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T05:14:52.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-06T17:15:04.898604",
+            "country": "Thailand",
+            "city": "Racha Thewa Subdistrict",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 15555
+    },
+    {
+        "flight": {
+            "name": "Bangkok Airways",
+            "number": "4170",
+            "code": "PG4170",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T10:41:59.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T05:59:28.898604",
+            "country": "Thailand",
+            "city": "Racha Thewa Subdistrict",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 32915
+    },
+    {
+        "flight": {
+            "name": "AlphaSky",
+            "number": "7341",
+            "code": "AS7341",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T22:10:43.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-06T07:23:23.898604",
+            "country": "Thailand",
+            "city": "Racha Thewa Subdistrict",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 24980
+    },
+    {
+        "flight": {
+            "name": "Hawaiian Airlines",
+            "number": "5378",
+            "code": "HA5378",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T16:43:04.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T05:15:55.898604",
+            "country": "Thailand",
+            "city": "Racha Thewa Subdistrict",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 17695
+    },
+    {
+        "flight": {
+            "name": "JAL",
+            "number": "727",
+            "code": "JL727",
+            "registration": "JA830J"
+        },
+        "departure": {
+            "date": "2024-12-07T16:24:08.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T06:52:55.898604",
+            "country": "Thailand",
+            "city": "Racha Thewa Subdistrict",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 32495
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9033",
+            "code": "CF9033",
+            "registration": "B-5305"
+        },
+        "departure": {
+            "date": "2024-12-07T05:23:48.898604",
+            "country": "China",
+            "city": "Xianyang",
+            "airport": "Xianyang"
+        },
+        "arrival": {
+            "date": "2024-12-07T14:43:17.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 9830
+    },
+    {
+        "flight": {
+            "name": "Suparna Airlines",
+            "number": "7451",
+            "code": "Y87451",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T14:36:25.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-09T04:51:05.898604",
+            "country": "United States",
+            "city": "Anchorage",
+            "airport": "Ted Stevens Anchorage International Airport"
+        },
+        "price": 9590
+    },
+    {
+        "flight": {
+            "name": "Toll Aviation",
+            "number": "52",
+            "code": "Holder6",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T10:19:49.898604",
+            "country": "Australia",
+            "city": "Unknown",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-09T07:10:30.898604",
+            "country": "Australia",
+            "city": "Cairns",
+            "airport": "Cairns"
+        },
+        "price": 58890
+    },
+    {
+        "flight": {
+            "name": "Central Airlines",
+            "number": "9805",
+            "code": "I99805",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-09T23:31:43.898604",
+            "country": "China",
+            "city": "Fuzhou City",
+            "airport": "Fuzhou"
+        },
+        "arrival": {
+            "date": "2024-12-10T18:51:36.898604",
+            "country": "Philippines",
+            "city": "Pasay",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 47865
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7043",
+            "code": "O37043",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T22:05:03.898604",
+            "country": "China",
+            "city": "Fuzhou City",
+            "airport": "Fuzhou"
+        },
+        "arrival": {
+            "date": "2024-12-08T11:19:20.898604",
+            "country": "China",
+            "city": "Hangzhou City",
+            "airport": "Hangzhou"
+        },
+        "price": 52055
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7067",
+            "code": "O37067",
+            "registration": "B-2877"
+        },
+        "departure": {
+            "date": "2024-12-08T09:41:20.898604",
+            "country": "China",
+            "city": "Jinjiang City",
+            "airport": "Jinjiang"
+        },
+        "arrival": {
+            "date": "2024-12-08T10:46:31.898604",
+            "country": "China",
+            "city": "Hangzhou City",
+            "airport": "Hangzhou"
+        },
+        "price": 13100
+    },
+    {
+        "flight": {
+            "name": "Finnair",
+            "number": "5846",
+            "code": "AY5846",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T15:15:51.898604",
+            "country": "Philippines",
+            "city": "Las Pinas",
+            "airport": "Perth International"
+        },
+        "arrival": {
+            "date": "2024-12-07T00:47:53.898604",
+            "country": "China",
+            "city": "Hong Kong Island",
+            "airport": "Hong Kong International"
+        },
+        "price": 16815
+    },
+    {
+        "flight": {
+            "name": "British Airways",
+            "number": "4144",
+            "code": "BA4144",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T12:29:44.898604",
+            "country": "Philippines",
+            "city": "Las Pinas",
+            "airport": "Perth International"
+        },
+        "arrival": {
+            "date": "2024-12-08T22:10:48.898604",
+            "country": "China",
+            "city": "Hong Kong Island",
+            "airport": "Hong Kong International"
+        },
+        "price": 25300
+    },
+    {
+        "flight": {
+            "name": "Jet Linx Aviation",
+            "number": "7904",
+            "code": "JL7904",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T01:55:17.898604",
+            "country": "Philippines",
+            "city": "Las Pinas",
+            "airport": "Perth International"
+        },
+        "arrival": {
+            "date": "2024-12-11T17:32:46.898604",
+            "country": "China",
+            "city": "Hong Kong Island",
+            "airport": "Hong Kong International"
+        },
+        "price": 6345
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "8451",
+            "code": "SQ8451",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T05:07:23.898604",
+            "country": "China",
+            "city": "Kunming",
+            "airport": "Kunming"
+        },
+        "arrival": {
+            "date": "2024-12-11T13:40:12.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Singapore Changi"
+        },
+        "price": 37045
+    },
+    {
+        "flight": {
+            "name": "Xiamen Airlines",
+            "number": "892",
+            "code": "MF892",
+            "registration": "B-20CR"
+        },
+        "departure": {
+            "date": "2024-12-08T09:08:11.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T23:00:57.898604",
+            "country": "China",
+            "city": "Unknown",
+            "airport": "Xiamen"
+        },
+        "price": 27925
+    },
+    {
+        "flight": {
+            "name": "China Southern Airlines",
+            "number": "626",
+            "code": "CZ626",
+            "registration": "B-321Z"
+        },
+        "departure": {
+            "date": "2024-12-07T03:15:33.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-08T07:16:24.898604",
+            "country": "China",
+            "city": "Baiyun District",
+            "airport": "Guangzhou Baiyun International"
+        },
+        "price": 13140
+    },
+    {
+        "flight": {
+            "name": "Garuda Indonesia",
+            "number": "9139",
+            "code": "GA9139",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-12T01:58:56.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-12T10:23:54.898604",
+            "country": "Philippines",
+            "city": "Pasay",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 39990
+    },
+    {
+        "flight": {
+            "name": "Philippine Airlines",
+            "number": "538",
+            "code": "PR538",
+            "registration": "RP-C9929"
+        },
+        "departure": {
+            "date": "2024-12-08T00:32:10.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T22:13:13.898604",
+            "country": "Philippines",
+            "city": "Pasay",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 54145
+    },
+    {
+        "flight": {
+            "name": "Sriwijaya Air",
+            "number": "726",
+            "code": "SJ726",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T08:24:22.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T14:27:19.898604",
+            "country": "Indonesia",
+            "city": "Unknown",
+            "airport": "Hasanudin"
+        },
+        "price": 7950
+    },
+    {
+        "flight": {
+            "name": "AirAsia",
+            "number": "548",
+            "code": "AK548",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T05:00:38.898604",
+            "country": "Indonesia",
+            "city": "Denpasar",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-08T09:09:30.898604",
+            "country": "Philippines",
+            "city": "Las Pinas",
+            "airport": "Perth International"
+        },
+        "price": 10180
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7277",
+            "code": "O37277",
+            "registration": "B-1578"
+        },
+        "departure": {
+            "date": "2024-12-11T19:00:54.898604",
+            "country": "China",
+            "city": "Wenzhou",
+            "airport": "Wenzhou"
+        },
+        "arrival": {
+            "date": "2024-12-12T05:23:34.898604",
+            "country": "China",
+            "city": "Shenzhen",
+            "airport": "Shenzhen"
+        },
+        "price": 10220
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9017",
+            "code": "CF9017",
+            "registration": "B-5301"
+        },
+        "departure": {
+            "date": "2024-12-07T17:46:12.898604",
+            "country": "China",
+            "city": "Kunming",
+            "airport": "Kunming"
+        },
+        "arrival": {
+            "date": "2024-12-09T13:10:48.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 54595
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7469",
+            "code": "O37469",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T02:04:00.898604",
+            "country": "China",
+            "city": "Kunming",
+            "airport": "Kunming"
+        },
+        "arrival": {
+            "date": "2024-12-09T11:21:53.898604",
+            "country": "China",
+            "city": "Hangzhou City",
+            "airport": "Hangzhou"
+        },
+        "price": 40715
+    },
+    {
+        "flight": {
+            "name": "Thai Lion Air",
+            "number": "8812",
+            "code": "SL8812",
+            "registration": "HS-LVL"
+        },
+        "departure": {
+            "date": "2024-12-09T14:38:48.898604",
+            "country": "Thailand",
+            "city": "Bangkok",
+            "airport": "Don Muang"
+        },
+        "arrival": {
+            "date": "2024-12-10T20:28:44.898604",
+            "country": "China",
+            "city": "Fenghuang",
+            "airport": "Fenghuang International (Phoenix International)"
+        },
+        "price": 24190
+    },
+    {
+        "flight": {
+            "name": "Korean Air",
+            "number": "5778",
+            "code": "KE5778",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T20:00:33.898604",
+            "country": "United States",
+            "city": "Unknown",
+            "airport": "Guam International"
+        },
+        "arrival": {
+            "date": "2024-12-07T23:33:43.898604",
+            "country": "South Korea",
+            "city": "Gimhae-si",
+            "airport": "Gimhae"
+        },
+        "price": 34585
+    },
+    {
+        "flight": {
+            "name": "Jin Air",
+            "number": "922",
+            "code": "LJ922",
+            "registration": "HL7757"
+        },
+        "departure": {
+            "date": "2024-12-10T13:02:40.898604",
+            "country": "United States",
+            "city": "Unknown",
+            "airport": "Guam International"
+        },
+        "arrival": {
+            "date": "2024-12-11T11:00:34.898604",
+            "country": "South Korea",
+            "city": "Gimhae-si",
+            "airport": "Gimhae"
+        },
+        "price": 19395
+    },
+    {
+        "flight": {
+            "name": "Asiana Airlines",
+            "number": "9262",
+            "code": "OZ9262",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T05:08:27.898604",
+            "country": "Malaysia",
+            "city": "Unknown",
+            "airport": "Kota-Kinabalu International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-05T05:11:23.898604",
+            "country": "South Korea",
+            "city": "Gimhae-si",
+            "airport": "Gimhae"
+        },
+        "price": 44740
+    },
+    {
+        "flight": {
+            "name": "Air Busan",
+            "number": "762",
+            "code": "BX762",
+            "registration": "HL8257"
+        },
+        "departure": {
+            "date": "2024-12-05T15:32:20.898604",
+            "country": "Malaysia",
+            "city": "Unknown",
+            "airport": "Kota-Kinabalu International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-06T20:49:40.898604",
+            "country": "South Korea",
+            "city": "Gimhae-si",
+            "airport": "Gimhae"
+        },
+        "price": 18645
+    },
+    {
+        "flight": {
+            "name": "United Airlines",
+            "number": "158",
+            "code": "UA158",
+            "registration": "N73270"
+        },
+        "departure": {
+            "date": "2024-12-08T01:50:22.898604",
+            "country": "Palau",
+            "city": "Unknown",
+            "airport": "Babelthuap/Koror"
+        },
+        "arrival": {
+            "date": "2024-12-09T04:22:15.898604",
+            "country": "United States",
+            "city": "Unknown",
+            "airport": "Guam International"
+        },
+        "price": 11335
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9021",
+            "code": "YG9021",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T14:45:19.898604",
+            "country": "China",
+            "city": "Xianyang",
+            "airport": "Xianyang"
+        },
+        "arrival": {
+            "date": "2024-12-07T06:37:14.898604",
+            "country": "Thailand",
+            "city": "Racha Thewa Subdistrict",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 52675
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9053",
+            "code": "YG9053",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T12:01:28.898604",
+            "country": "China",
+            "city": "Xianyang",
+            "airport": "Xianyang"
+        },
+        "arrival": {
+            "date": "2024-12-08T02:04:50.898604",
+            "country": "Russia",
+            "city": "Unknown",
+            "airport": "Zia International"
+        },
+        "price": 49760
+    },
+    {
+        "flight": {
+            "name": "Air Seoul",
+            "number": "582",
+            "code": "RS582",
+            "registration": "HL7789"
+        },
+        "departure": {
+            "date": "2024-12-11T19:30:05.898604",
+            "country": "Philippines",
+            "city": "Tagbilaran",
+            "airport": "Tagbilaran"
+        },
+        "arrival": {
+            "date": "2024-12-12T08:48:34.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 35465
+    },
+    {
+        "flight": {
+            "name": "Jin Air",
+            "number": "44",
+            "code": "LJ44",
+            "registration": "HL8225"
+        },
+        "departure": {
+            "date": "2024-12-09T23:31:28.898604",
+            "country": "Philippines",
+            "city": "Tagbilaran",
+            "airport": "Tagbilaran"
+        },
+        "arrival": {
+            "date": "2024-12-10T04:25:36.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 37535
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7031",
+            "code": "O37031",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T13:50:23.898604",
+            "country": "China",
+            "city": "Linyi",
+            "airport": "Linyi"
+        },
+        "arrival": {
+            "date": "2024-12-08T22:41:22.898604",
+            "country": "China",
+            "city": "Hangzhou City",
+            "airport": "Hangzhou"
+        },
+        "price": 29215
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "6840",
+            "code": "O36840",
+            "registration": "B-2821"
+        },
+        "departure": {
+            "date": "2024-12-06T00:05:11.898604",
+            "country": "China",
+            "city": "Wuxi City",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-06T07:01:28.898604",
+            "country": "China",
+            "city": "Shenzhen",
+            "airport": "Shenzhen"
+        },
+        "price": 23045
+    },
+    {
+        "flight": {
+            "name": "9 Air Co",
+            "number": "1332",
+            "code": "AQ1332",
+            "registration": "B-1233"
+        },
+        "departure": {
+            "date": "2024-12-06T11:48:47.898604",
+            "country": "China",
+            "city": "Wuxi City",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-08T04:08:48.898604",
+            "country": "China",
+            "city": "Guiyang",
+            "airport": "Guiyang"
+        },
+        "price": 59845
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7333",
+            "code": "O37333",
+            "registration": "B-208Q"
+        },
+        "departure": {
+            "date": "2024-12-08T20:01:48.898604",
+            "country": "China",
+            "city": "Wuxi City",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-10T07:54:33.898604",
+            "country": "China",
+            "city": "Chaoyang District",
+            "airport": "Beijing Capital International"
+        },
+        "price": 33125
+    },
+    {
+        "flight": {
+            "name": "Loong Air",
+            "number": "8372",
+            "code": "GJ8372",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T05:55:14.898604",
+            "country": "China",
+            "city": "Wuxi City",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-07T13:36:03.898604",
+            "country": "China",
+            "city": "Hangzhou City",
+            "airport": "Hangzhou"
+        },
+        "price": 54805
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9187",
+            "code": "YG9187",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-10T23:22:05.898604",
+            "country": "China",
+            "city": "Wuxi City",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-11T12:12:50.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "price": 32710
+    },
+    {
+        "flight": {
+            "name": "Raya Airways",
+            "number": "6821",
+            "code": "TH6821",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-12T02:59:05.898604",
+            "country": "Malaysia",
+            "city": "Shah Alam",
+            "airport": "Sultan Abdul Aziz Shah"
+        },
+        "arrival": {
+            "date": "2024-12-13T22:01:28.898604",
+            "country": "China",
+            "city": "Hong Kong Island",
+            "airport": "Hong Kong International"
+        },
+        "price": 52135
+    },
+    {
+        "flight": {
+            "name": "Central Airlines",
+            "number": "8871",
+            "code": "I98871",
+            "registration": "B-223R"
+        },
+        "departure": {
+            "date": "2024-12-05T08:15:40.898604",
+            "country": "China",
+            "city": "Yantai",
+            "airport": "Yantai"
+        },
+        "arrival": {
+            "date": "2024-12-06T23:48:54.898604",
+            "country": "Japan",
+            "city": "Izumisano",
+            "airport": "Kansai International"
+        },
+        "price": 56020
+    },
+    {
+        "flight": {
+            "name": "Longhao Airlines",
+            "number": "4237",
+            "code": "GI4237",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T22:15:09.898604",
+            "country": "China",
+            "city": "Yantai",
+            "airport": "Yantai"
+        },
+        "arrival": {
+            "date": "2024-12-13T12:48:48.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 24990
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9068",
+            "code": "CF9068",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-09T01:16:44.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-11T00:01:01.898604",
+            "country": "China",
+            "city": "Wuhan",
+            "airport": "Tianhe International"
+        },
+        "price": 58285
+    },
+    {
+        "flight": {
+            "name": "Suparna Airlines",
+            "number": "7453",
+            "code": "Y87453",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-10T01:53:10.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-11T10:59:37.898604",
+            "country": "United States",
+            "city": "Anchorage",
+            "airport": "Ted Stevens Anchorage International Airport"
+        },
+        "price": 30010
+    },
+    {
+        "flight": {
+            "name": "Longhao Airlines",
+            "number": "4012",
+            "code": "GI4012",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-10T21:42:56.898604",
+            "country": "China",
+            "city": "Weihai",
+            "airport": "Weihai"
+        },
+        "arrival": {
+            "date": "2024-12-11T19:27:20.898604",
+            "country": "China",
+            "city": "Zhengzhou",
+            "airport": "Zhengzhou"
+        },
+        "price": 36600
+    },
+    {
+        "flight": {
+            "name": "Tianjin Air Cargo",
+            "number": "3809",
+            "code": "HT3809",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-10T02:53:51.898604",
+            "country": "China",
+            "city": "Weihai",
+            "airport": "Weihai"
+        },
+        "arrival": {
+            "date": "2024-12-11T04:03:44.898604",
+            "country": "South Korea",
+            "city": "Incheon",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 8005
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9057",
+            "code": "CF9057",
+            "registration": "B-2962"
+        },
+        "departure": {
+            "date": "2024-12-10T01:30:51.898604",
+            "country": "China",
+            "city": "Yubei District",
+            "airport": "Chongqing Jiangbei International"
+        },
+        "arrival": {
+            "date": "2024-12-11T21:00:37.898604",
+            "country": "China",
+            "city": "Jiangning District",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 15580
+    },
+    {
+        "flight": {
+            "name": "Qatar Airways",
+            "number": "881",
+            "code": "QR881",
+            "registration": "A7-ACT"
+        },
+        "departure": {
+            "date": "2024-12-10T12:22:08.898604",
+            "country": "China",
+            "city": "Yubei District",
+            "airport": "Chongqing Jiangbei International"
+        },
+        "arrival": {
+            "date": "2024-12-11T19:49:32.898604",
+            "country": "Qatar",
+            "city": "Doha",
+            "airport": "Doha International"
+        },
+        "price": 46060
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "779",
+            "code": "MU779",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T04:15:39.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-11T22:46:06.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "price": 31075
+    },
+    {
+        "flight": {
+            "name": "Shanghai Airlines",
+            "number": "863",
+            "code": "FM863",
+            "registration": "B-1261"
+        },
+        "departure": {
+            "date": "2024-12-10T05:09:30.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-10T09:14:19.898604",
+            "country": "Malaysia",
+            "city": "Sepang",
+            "airport": "Kuala Lumpur International Airport (klia)"
+        },
+        "price": 20550
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "825",
+            "code": "SQ825",
+            "registration": "9V-SCB"
+        },
+        "departure": {
+            "date": "2024-12-07T07:44:23.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-08T16:34:03.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Singapore Changi"
+        },
+        "price": 32045
+    },
+    {
+        "flight": {
+            "name": "Shanghai Airlines",
+            "number": "739",
+            "code": "FM739",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T03:42:44.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-08T22:40:20.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 45195
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "709",
+            "code": "MU709",
+            "registration": "B-329E"
+        },
+        "departure": {
+            "date": "2024-12-11T02:57:37.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-12T13:19:09.898604",
+            "country": "Spain",
+            "city": "Madrid",
+            "airport": "Barajas"
+        },
+        "price": 53175
+    },
+    {
+        "flight": {
+            "name": "China Southern Airlines",
+            "number": "447",
+            "code": "CZ447",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T09:21:42.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-12T08:26:45.898604",
+            "country": "United States",
+            "city": "Los Angeles",
+            "airport": "Los Angeles International"
+        },
+        "price": 40665
+    },
+    {
+        "flight": {
+            "name": "Cargolux",
+            "number": "9873",
+            "code": "CV9873",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T14:08:47.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-05T15:28:19.898604",
+            "country": "Luxembourg",
+            "city": "Unknown",
+            "airport": "Findel"
+        },
+        "price": 19110
+    },
+    {
+        "flight": {
+            "name": "China Southern Airlines",
+            "number": "2511",
+            "code": "CZ2511",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-12T01:42:06.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-12T21:20:08.898604",
+            "country": "United States",
+            "city": "Los Angeles",
+            "airport": "Los Angeles International"
+        },
+        "price": 57250
+    },
+    {
+        "flight": {
+            "name": "Air China LTD",
+            "number": "839",
+            "code": "CA839",
+            "registration": "B-1082"
+        },
+        "departure": {
+            "date": "2024-12-07T17:16:38.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-08T10:09:38.898604",
+            "country": "Spain",
+            "city": "Unknown",
+            "airport": "El Prat De Llobregat"
+        },
+        "price": 34465
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "553",
+            "code": "MU553",
+            "registration": "B-2020"
+        },
+        "departure": {
+            "date": "2024-12-07T17:53:14.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-09T13:05:17.898604",
+            "country": "United Kingdom",
+            "city": "London",
+            "airport": "Charles De Gaulle"
+        },
+        "price": 10700
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "785",
+            "code": "MU785",
+            "registration": "B-5938"
+        },
+        "departure": {
+            "date": "2024-12-11T07:50:17.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-13T01:54:15.898604",
+            "country": "France",
+            "city": "Unknown",
+            "airport": "Marco Polo"
+        },
+        "price": 61070
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "219",
+            "code": "MU219",
+            "registration": "B-2023"
+        },
+        "departure": {
+            "date": "2024-12-12T02:11:17.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-12T06:35:05.898604",
+            "country": "Germany",
+            "city": "Frankfurt",
+            "airport": "Frankfurt International Airport"
+        },
+        "price": 60715
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "703",
+            "code": "MU703",
+            "registration": "B-32CZ"
+        },
+        "departure": {
+            "date": "2024-12-10T08:38:26.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-11T02:57:27.898604",
+            "country": "Turkey",
+            "city": "Unknown",
+            "airport": "Istanbul Airport"
+        },
+        "price": 36055
+    },
+    {
+        "flight": {
+            "name": "Suparna Airlines",
+            "number": "7403",
+            "code": "Y87403",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-09T09:22:53.898604",
+            "country": "China",
+            "city": "Pudong",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-09T10:20:44.898604",
+            "country": "China",
+            "city": "Dongli District",
+            "airport": "Tianjin Binhai International"
+        },
+        "price": 28970
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "168",
+            "code": "QF168",
+            "registration": "VH-XZP"
+        },
+        "departure": {
+            "date": "2024-12-07T06:53:17.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "arrival": {
+            "date": "2024-12-08T09:30:59.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 55090
+    },
+    {
+        "flight": {
+            "name": "Emirates",
+            "number": "7488",
+            "code": "EK7488",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T19:14:53.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-08T04:02:43.898604",
+            "country": "New Zealand",
+            "city": "Wellington",
+            "airport": "Wellington International"
+        },
+        "price": 22365
+    },
+    {
+        "flight": {
+            "name": "Fiji Airways",
+            "number": "5543",
+            "code": "FJ5543",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T08:34:11.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-05T14:13:06.898604",
+            "country": "New Zealand",
+            "city": "Wellington",
+            "airport": "Wellington International"
+        },
+        "price": 39730
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "5769",
+            "code": "QF5769",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T11:43:23.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-13T03:26:15.898604",
+            "country": "New Zealand",
+            "city": "Wellington",
+            "airport": "Wellington International"
+        },
+        "price": 49040
+    },
+    {
+        "flight": {
+            "name": "Jetstar",
+            "number": "251",
+            "code": "JQ251",
+            "registration": "VH-VGP"
+        },
+        "departure": {
+            "date": "2024-12-05T10:44:32.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-06T01:24:47.898604",
+            "country": "New Zealand",
+            "city": "Wellington",
+            "airport": "Wellington International"
+        },
+        "price": 40825
+    },
+    {
+        "flight": {
+            "name": "EVA Air",
+            "number": "3215",
+            "code": "BR3215",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-06T06:58:37.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-07T06:52:15.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "price": 35075
+    },
+    {
+        "flight": {
+            "name": "Etihad Airways",
+            "number": "4689",
+            "code": "EY4689",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-05T10:46:19.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-05T21:19:57.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "price": 44385
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "4360",
+            "code": "SQ4360",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-08T11:03:09.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-09T02:13:30.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "price": 8250
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "4029",
+            "code": "MU4029",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T23:39:01.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-13T14:23:03.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 31875
+    },
+    {
+        "flight": {
+            "name": "LATAM Airlines",
+            "number": "4900",
+            "code": "LA4900",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-07T04:57:20.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-08T13:34:24.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 26330
+    },
+    {
+        "flight": {
+            "name": "Air Tahiti Nui",
+            "number": "1433",
+            "code": "TN1433",
+            "registration": "N/A"
+        },
+        "departure": {
+            "date": "2024-12-11T16:27:54.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-12T17:50:37.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 51520
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "152",
+            "code": "QF152",
+            "registration": "VH-VZM"
+        },
+        "departure": {
+            "date": "2024-12-08T00:22:31.898604",
+            "country": "New Zealand",
+            "city": "Mangere-Otahuhu",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-08T22:16:12.898604",
+            "country": "Australia",
+            "city": "Melbourne",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 54120
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "296",
+            "code": "SQ296",
+            "registration": "9V-SMS"
+        },
+        "departure": {
+            "date": "2024-12-07T18:05:03.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "arrival": {
+            "date": "2024-12-08T02:22:03.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Singapore Changi"
+        },
+        "price": 42026
+    },
+    {
+        "flight": {
+            "name": "Air New Zealand",
+            "number": "3296",
+            "code": "NZ3296",
+            "registration": "placeholder1"
+        },
+        "departure": {
+            "date": "2024-12-05T15:54:09.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "arrival": {
+            "date": "2024-12-07T02:14:59.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Singapore Changi"
+        },
+        "price": 42026
+    },
+    {
+        "flight": {
+            "name": "SWISS",
+            "number": "9035",
+            "code": "LX9035",
+            "registration": "placeholder2"
+        },
+        "departure": {
+            "date": "2024-12-08T16:04:27.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "arrival": {
+            "date": "2024-12-08T23:02:06.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Singapore Changi"
+        },
+        "price": 42026
+    },
+    {
+        "flight": {
+            "name": "Lufthansa",
+            "number": "9759",
+            "code": "LH9759",
+            "registration": "placeholder3"
+        },
+        "departure": {
+            "date": "2024-12-06T00:50:13.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Christchurch International"
+        },
+        "arrival": {
+            "date": "2024-12-06T01:13:12.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Singapore Changi"
+        },
+        "price": 42026
+    },
+    {
+        "flight": {
+            "name": "Azur Air",
+            "number": "1671",
+            "code": "ZF1671",
+            "registration": "RA-73078"
+        },
+        "departure": {
+            "date": "2024-12-06T19:37:11.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Krasnojarsk"
+        },
+        "arrival": {
+            "date": "2024-12-08T01:27:46.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Bandaranaike International"
+        },
+        "price": 27744
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7445",
+            "code": "QF7445",
+            "registration": "placeholder5"
+        },
+        "departure": {
+            "date": "2024-12-06T13:02:16.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Sydney Kingsford Smith Airport"
+        },
+        "arrival": {
+            "date": "2024-12-08T04:18:56.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 35310
+    },
+    {
+        "flight": {
+            "name": "Lufthansa",
+            "number": "727",
+            "code": "LH727",
+            "registration": "D-AIXV"
+        },
+        "departure": {
+            "date": "2024-12-07T02:07:25.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-07T04:24:13.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Franz Josef Strauss"
+        },
+        "price": 43893
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7420",
+            "code": "QF7420",
+            "registration": "VH-SJE"
+        },
+        "departure": {
+            "date": "2024-12-08T00:01:11.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Sydney Kingsford Smith Airport"
+        },
+        "arrival": {
+            "date": "2024-12-09T22:01:42.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Brisbane International"
+        },
+        "price": 37550
+    },
+    {
+        "flight": {
+            "name": "Aurora",
+            "number": "5468",
+            "code": "HZ5468",
+            "registration": "placeholder8"
+        },
+        "departure": {
+            "date": "2024-12-10T13:47:36.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Vladivostok"
+        },
+        "arrival": {
+            "date": "2024-12-12T05:14:22.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Beijing Daxing International Airport"
+        },
+        "price": 16756
+    },
+    {
+        "flight": {
+            "name": "Emirates",
+            "number": "9824",
+            "code": "EK9824",
+            "registration": "A6-EFV"
+        },
+        "departure": {
+            "date": "2024-12-11T11:55:15.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Auckland International"
+        },
+        "arrival": {
+            "date": "2024-12-12T13:23:39.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hong Kong International"
+        },
+        "price": 45739
+    },
+    {
+        "flight": {
+            "name": "Finnair",
+            "number": "5850",
+            "code": "AY5850",
+            "registration": "placeholder10"
+        },
+        "departure": {
+            "date": "2024-12-05T21:26:46.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-06T17:01:09.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hong Kong International"
+        },
+        "price": 34644
+    },
+    {
+        "flight": {
+            "name": "British Airways",
+            "number": "4146",
+            "code": "BA4146",
+            "registration": "placeholder11"
+        },
+        "departure": {
+            "date": "2024-12-09T16:50:08.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-11T08:33:40.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hong Kong International"
+        },
+        "price": 34644
+    },
+    {
+        "flight": {
+            "name": "Jet Linx Aviation",
+            "number": "7906",
+            "code": "JL7906",
+            "registration": "placeholder12"
+        },
+        "departure": {
+            "date": "2024-12-08T12:45:29.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-09T13:24:34.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hong Kong International"
+        },
+        "price": 34644
+    },
+    {
+        "flight": {
+            "name": "Miat - Mongolian Airlines",
+            "number": "5632",
+            "code": "OM5632",
+            "registration": "placeholder13"
+        },
+        "departure": {
+            "date": "2024-12-08T18:12:48.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-09T02:47:45.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hong Kong International"
+        },
+        "price": 34644
+    },
+    {
+        "flight": {
+            "name": "Qatar Airways",
+            "number": "3467",
+            "code": "QR3467",
+            "registration": "placeholder14"
+        },
+        "departure": {
+            "date": "2024-12-06T22:27:45.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-08T10:28:43.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hong Kong International"
+        },
+        "price": 34644
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7413",
+            "code": "QF7413",
+            "registration": "VH-SIF"
+        },
+        "departure": {
+            "date": "2024-12-07T02:40:33.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-08T12:03:24.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Adelaide International Airport"
+        },
+        "price": 25000
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "8431",
+            "code": "QF8431",
+            "registration": "placeholder16"
+        },
+        "departure": {
+            "date": "2024-12-08T08:47:49.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-08T15:03:34.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Dubai"
+        },
+        "price": 59932
+    },
+    {
+        "flight": {
+            "name": "Emirates",
+            "number": "431",
+            "code": "EK431",
+            "registration": "A6-EUF"
+        },
+        "departure": {
+            "date": "2024-12-07T08:23:37.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-09T01:00:39.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Dubai"
+        },
+        "price": 59932
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7363",
+            "code": "QF7363",
+            "registration": "placeholder18"
+        },
+        "departure": {
+            "date": "2024-12-08T15:42:09.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-09T21:11:45.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 36894
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7494",
+            "code": "QF7494",
+            "registration": "placeholder19"
+        },
+        "departure": {
+            "date": "2024-12-08T20:15:23.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-10T09:31:52.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Rockhampton"
+        },
+        "price": 25890
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7496",
+            "code": "QF7496",
+            "registration": "VH-AK2"
+        },
+        "departure": {
+            "date": "2024-12-07T07:47:19.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Brisbane International"
+        },
+        "arrival": {
+            "date": "2024-12-09T02:19:13.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Mackay"
+        },
+        "price": 40080
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9051",
+            "code": "CF9051",
+            "registration": "placeholder21"
+        },
+        "departure": {
+            "date": "2024-12-10T09:42:54.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Haikou"
+        },
+        "arrival": {
+            "date": "2024-12-10T15:53:19.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 57805
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9136",
+            "code": "YG9136",
+            "registration": "placeholder22"
+        },
+        "departure": {
+            "date": "2024-12-11T02:12:22.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-11T07:35:08.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 46527
+    },
+    {
+        "flight": {
+            "name": "China Cargo",
+            "number": "248",
+            "code": "CK248",
+            "registration": "placeholder23"
+        },
+        "departure": {
+            "date": "2024-12-08T10:39:50.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T19:19:34.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 26527
+    },
+    {
+        "flight": {
+            "name": "SriLankan Airlines",
+            "number": "3345",
+            "code": "UL3345",
+            "registration": "placeholder24"
+        },
+        "departure": {
+            "date": "2024-12-05T16:34:15.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-06T03:38:44.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 20795
+    },
+    {
+        "flight": {
+            "name": "Bangkok Airways",
+            "number": "4170",
+            "code": "PG4170",
+            "registration": "placeholder25"
+        },
+        "departure": {
+            "date": "2024-12-09T00:48:43.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-10T21:25:32.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 20795
+    },
+    {
+        "flight": {
+            "name": "AlphaSky",
+            "number": "7341",
+            "code": "AS7341",
+            "registration": "placeholder26"
+        },
+        "departure": {
+            "date": "2024-12-06T17:21:05.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T21:30:44.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 20795
+    },
+    {
+        "flight": {
+            "name": "Hawaiian Airlines",
+            "number": "5378",
+            "code": "HA5378",
+            "registration": "placeholder27"
+        },
+        "departure": {
+            "date": "2024-12-10T21:24:57.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-12T06:02:09.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 20795
+    },
+    {
+        "flight": {
+            "name": "JAL",
+            "number": "727",
+            "code": "JL727",
+            "registration": "JA821J"
+        },
+        "departure": {
+            "date": "2024-12-11T15:47:31.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-13T15:30:48.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 20795
+    },
+    {
+        "flight": {
+            "name": "Atlas Air",
+            "number": "8193",
+            "code": "5Y8193",
+            "registration": "placeholder29"
+        },
+        "departure": {
+            "date": "2024-12-08T00:42:51.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Xiamen"
+        },
+        "arrival": {
+            "date": "2024-12-08T07:28:09.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Ted Stevens Anchorage International Airport"
+        },
+        "price": 38674
+    },
+    {
+        "flight": {
+            "name": "Xiamen Airlines",
+            "number": "825",
+            "code": "MF825",
+            "registration": "B-1357"
+        },
+        "departure": {
+            "date": "2024-12-08T08:33:08.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Xiamen"
+        },
+        "arrival": {
+            "date": "2024-12-09T07:50:08.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Charles De Gaulle"
+        },
+        "price": 48206
+    },
+    {
+        "flight": {
+            "name": "Atlas Air",
+            "number": "8856",
+            "code": "5Y8856",
+            "registration": "placeholder31"
+        },
+        "departure": {
+            "date": "2024-12-11T20:00:05.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Xiamen"
+        },
+        "arrival": {
+            "date": "2024-12-12T00:38:52.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Ted Stevens Anchorage International Airport"
+        },
+        "price": 38674
+    },
+    {
+        "flight": {
+            "name": "Shenzhen Airlines",
+            "number": "305",
+            "code": "ZH305",
+            "registration": "B-8636"
+        },
+        "departure": {
+            "date": "2024-12-10T03:48:09.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shenzhen"
+        },
+        "arrival": {
+            "date": "2024-12-11T18:28:02.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Suvarnabhumi International"
+        },
+        "price": 8577
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7108",
+            "code": "O37108",
+            "registration": "B-20EF"
+        },
+        "departure": {
+            "date": "2024-12-10T06:54:54.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-11T12:12:34.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Beijing Capital International"
+        },
+        "price": 5011
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9185",
+            "code": "YG9185",
+            "registration": "placeholder34"
+        },
+        "departure": {
+            "date": "2024-12-09T00:14:10.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Wuxi"
+        },
+        "arrival": {
+            "date": "2024-12-09T17:29:05.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Noibai International"
+        },
+        "price": 59216
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "7488",
+            "code": "QF7488",
+            "registration": "placeholder35"
+        },
+        "departure": {
+            "date": "2024-12-07T01:38:49.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Sydney Kingsford Smith Airport"
+        },
+        "arrival": {
+            "date": "2024-12-07T12:06:26.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 63531
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9015",
+            "code": "YG9015",
+            "registration": "placeholder36"
+        },
+        "departure": {
+            "date": "2024-12-08T19:43:06.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Lishe International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-10T02:44:27.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Noibai International"
+        },
+        "price": 39180
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9021",
+            "code": "YG9021",
+            "registration": "placeholder37"
+        },
+        "departure": {
+            "date": "2024-12-08T11:43:02.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Lishe International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-09T20:24:19.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 44912
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9073",
+            "code": "YG9073",
+            "registration": "NZ48916"
+        },
+        "departure": {
+            "date": "2024-12-09T15:00:46.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Yancheng"
+        },
+        "arrival": {
+            "date": "2024-12-10T02:41:27.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 23745
+    },
+    {
+        "flight": {
+            "name": "Toll Aviation",
+            "number": "9094",
+            "code": "NU9094",
+            "registration": "NZ15984"
+        },
+        "departure": {
+            "date": "2024-12-10T16:25:56.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Launceston"
+        },
+        "arrival": {
+            "date": "2024-12-12T11:55:06.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Melbourne - Tullamarine Airport"
+        },
+        "price": 23126
+    },
+    {
+        "flight": {
+            "name": "Air China LTD",
+            "number": "8417",
+            "code": "CA8417",
+            "registration": "placeholder40"
+        },
+        "departure": {
+            "date": "2024-12-11T01:21:16.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-12T22:22:10.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Los Angeles International"
+        },
+        "price": 52072
+    },
+    {
+        "flight": {
+            "name": "China Southern Airlines",
+            "number": "443",
+            "code": "CZ443",
+            "registration": "XXB"
+        },
+        "departure": {
+            "date": "2024-12-06T08:39:03.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-07T20:00:18.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Los Angeles International"
+        },
+        "price": 52072
+    },
+    {
+        "flight": {
+            "name": "Air China LTD",
+            "number": "8443",
+            "code": "CA8443",
+            "registration": "B-2095"
+        },
+        "departure": {
+            "date": "2024-12-10T01:37:10.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-10T11:50:18.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shuangliu"
+        },
+        "price": 35391
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7201",
+            "code": "O37201",
+            "registration": "B-1145"
+        },
+        "departure": {
+            "date": "2024-12-10T22:23:49.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-12T02:44:58.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Beijing Capital International"
+        },
+        "price": 54896
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7203",
+            "code": "O37203",
+            "registration": "B-1378"
+        },
+        "departure": {
+            "date": "2024-12-10T09:08:32.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shanghai Pudong International"
+        },
+        "arrival": {
+            "date": "2024-12-10T13:06:08.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shenzhen"
+        },
+        "price": 61530
+    },
+    {
+        "flight": {
+            "name": "Cebu Pacific Air",
+            "number": "187",
+            "code": "5J187",
+            "registration": "RP-C3900"
+        },
+        "departure": {
+            "date": "2024-12-05T22:54:59.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Seoul (Incheon)"
+        },
+        "arrival": {
+            "date": "2024-12-06T13:12:01.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 13096
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "303",
+            "code": "O3303",
+            "registration": "placeholder46"
+        },
+        "departure": {
+            "date": "2024-12-11T09:09:23.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Nanning"
+        },
+        "arrival": {
+            "date": "2024-12-11T13:35:18.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Chhatrapati Shivaji International (Sahar International)"
+        },
+        "price": 22000
+    },
+    {
+        "flight": {
+            "name": "Fiji Airways",
+            "number": "252",
+            "code": "FJ252",
+            "registration": "DQ-FAF"
+        },
+        "departure": {
+            "date": "2024-12-08T16:24:59.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Faleolo"
+        },
+        "arrival": {
+            "date": "2024-12-10T07:07:34.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Nadi International"
+        },
+        "price": 6040
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7061",
+            "code": "O37061",
+            "registration": "placeholder48"
+        },
+        "departure": {
+            "date": "2024-12-08T15:14:04.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Jinjiang"
+        },
+        "arrival": {
+            "date": "2024-12-09T21:42:42.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": null
+        },
+        "price": 47944
+    },
+    {
+        "flight": {
+            "name": "IndiGo",
+            "number": "1912",
+            "code": "6E1912",
+            "registration": "VT-IQN"
+        },
+        "departure": {
+            "date": "2024-12-09T12:37:26.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Phuket International"
+        },
+        "arrival": {
+            "date": "2024-12-11T12:30:22.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Chhatrapati Shivaji International (Sahar International)"
+        },
+        "price": 30000
+    },
+    {
+        "flight": {
+            "name": "China Eastern Airlines",
+            "number": "2082",
+            "code": "MU2082",
+            "registration": "B-32EP"
+        },
+        "departure": {
+            "date": "2024-12-06T02:30:41.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Phuket International"
+        },
+        "arrival": {
+            "date": "2024-12-06T16:06:35.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Xianyang"
+        },
+        "price": 15520
+    },
+    {
+        "flight": {
+            "name": "Cebu Pacific Air",
+            "number": "976",
+            "code": "5J976",
+            "registration": "RP-C3239"
+        },
+        "departure": {
+            "date": "2024-12-10T02:29:29.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Francisco Bangoy International"
+        },
+        "arrival": {
+            "date": "2024-12-10T14:42:19.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 48206
+    },
+    {
+        "flight": {
+            "name": "Central Airlines",
+            "number": "9814",
+            "code": "I99814",
+            "registration": "placeholder52"
+        },
+        "departure": {
+            "date": "2024-12-08T01:20:53.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Francisco Bangoy International"
+        },
+        "arrival": {
+            "date": "2024-12-09T13:31:47.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shenzhen"
+        },
+        "price": 10583
+    },
+    {
+        "flight": {
+            "name": "Cebu Pacific Air",
+            "number": "954",
+            "code": "5J954",
+            "registration": "RP-C4113"
+        },
+        "departure": {
+            "date": "2024-12-11T11:07:14.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Francisco Bangoy International"
+        },
+        "arrival": {
+            "date": "2024-12-12T00:56:02.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 24820
+    },
+    {
+        "flight": {
+            "name": "Philippine Airlines",
+            "number": "223",
+            "code": "PR223",
+            "registration": "RP-C9936"
+        },
+        "departure": {
+            "date": "2024-12-07T00:17:35.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ninoy Aquino International"
+        },
+        "arrival": {
+            "date": "2024-12-09T00:04:04.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Perth International"
+        },
+        "price": 34000
+    },
+    {
+        "flight": {
+            "name": "AirAsia",
+            "number": "761",
+            "code": "AK761",
+            "registration": "placeholder55"
+        },
+        "departure": {
+            "date": "2024-12-09T16:25:47.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ninoy Aquino International"
+        },
+        "arrival": {
+            "date": "2024-12-10T12:22:04.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Mactan-Cebu International"
+        },
+        "price": 28320
+    },
+    {
+        "flight": {
+            "name": "YTO Cargo Airlines",
+            "number": "9026",
+            "code": "YG9026",
+            "registration": "placeholder56"
+        },
+        "departure": {
+            "date": "2024-12-05T22:12:40.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ninoy Aquino International"
+        },
+        "arrival": {
+            "date": "2024-12-06T05:40:23.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Changsha"
+        },
+        "price": 85780
+    },
+    {
+        "flight": {
+            "name": "Korean Air",
+            "number": "626",
+            "code": "KE626",
+            "registration": "HL8531"
+        },
+        "departure": {
+            "date": "2024-12-09T22:42:16.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ninoy Aquino International"
+        },
+        "arrival": {
+            "date": "2024-12-10T13:24:51.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 13096
+    },
+    {
+        "flight": {
+            "name": "Philippine Airlines",
+            "number": "466",
+            "code": "PR466",
+            "registration": "RP-C9916"
+        },
+        "departure": {
+            "date": "2024-12-10T16:35:48.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ninoy Aquino International"
+        },
+        "arrival": {
+            "date": "2024-12-11T01:52:42.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Seoul (Incheon)"
+        },
+        "price": 13096
+    },
+    {
+        "flight": {
+            "name": "AlphaSky",
+            "number": "5786",
+            "code": "AS5786",
+            "registration": "placeholder59"
+        },
+        "departure": {
+            "date": "2024-12-07T21:03:14.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T06:10:13.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "Virgin Australia",
+            "number": "6397",
+            "code": "VA6397",
+            "registration": "placeholder60"
+        },
+        "departure": {
+            "date": "2024-12-10T03:17:49.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-11T07:22:09.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "Iberia",
+            "number": "6287",
+            "code": "IB6287",
+            "registration": "placeholder61"
+        },
+        "departure": {
+            "date": "2024-12-08T23:42:20.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T16:04:06.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "Finnair",
+            "number": "6672",
+            "code": "AY6672",
+            "registration": "placeholder62"
+        },
+        "departure": {
+            "date": "2024-12-06T10:23:40.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T22:21:23.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "British Airways",
+            "number": "6361",
+            "code": "BA6361",
+            "registration": "placeholder63"
+        },
+        "departure": {
+            "date": "2024-12-11T10:02:54.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-12T01:06:31.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "American Airlines",
+            "number": "8306",
+            "code": "AA8306",
+            "registration": "placeholder64"
+        },
+        "departure": {
+            "date": "2024-12-07T21:51:30.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T02:15:12.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "JetBlue Airways",
+            "number": "6539",
+            "code": "B66539",
+            "registration": "placeholder65"
+        },
+        "departure": {
+            "date": "2024-12-05T12:32:10.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Ngurah Rai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T02:54:39.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 39236
+    },
+    {
+        "flight": {
+            "name": "Suparna Airlines",
+            "number": "7404",
+            "code": "Y87404",
+            "registration": "placeholder66"
+        },
+        "departure": {
+            "date": "2024-12-10T20:45:48.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tianjin Binhai International"
+        },
+        "arrival": {
+            "date": "2024-12-12T17:15:46.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 4877
+    },
+    {
+        "flight": {
+            "name": "Tianjin Air Cargo",
+            "number": "3829",
+            "code": "HT3829",
+            "registration": "placeholder67"
+        },
+        "departure": {
+            "date": "2024-12-08T08:59:03.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tianjin Binhai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T09:44:35.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Kansai International"
+        },
+        "price": 8357
+    },
+    {
+        "flight": {
+            "name": "Suparna Airlines",
+            "number": "7943",
+            "code": "Y87943",
+            "registration": "placeholder68"
+        },
+        "departure": {
+            "date": "2024-12-11T03:43:33.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tianjin Binhai International"
+        },
+        "arrival": {
+            "date": "2024-12-11T15:44:08.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hangzhou"
+        },
+        "price": 5104
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9101",
+            "code": "CF9101",
+            "registration": "B-2887"
+        },
+        "departure": {
+            "date": "2024-12-11T22:05:54.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tianjin Binhai International"
+        },
+        "arrival": {
+            "date": "2024-12-13T02:33:08.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 41690
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7224",
+            "code": "O37224",
+            "registration": "B-2840"
+        },
+        "departure": {
+            "date": "2024-12-05T09:17:07.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shenzhen"
+        },
+        "arrival": {
+            "date": "2024-12-07T02:20:58.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hangzhou"
+        },
+        "price": 54263
+    },
+    {
+        "flight": {
+            "name": "Qatar Airways",
+            "number": "891",
+            "code": "QR891",
+            "registration": "A7-AEE"
+        },
+        "departure": {
+            "date": "2024-12-05T17:21:25.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Hangzhou"
+        },
+        "arrival": {
+            "date": "2024-12-07T01:39:28.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Doha International"
+        },
+        "price": 33374
+    },
+    {
+        "flight": {
+            "name": "Vietnam Airlines",
+            "number": "647",
+            "code": "VN647",
+            "registration": "VN-A392"
+        },
+        "departure": {
+            "date": "2024-12-08T20:48:03.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Noibai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T09:45:43.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Ninoy Aquino International"
+        },
+        "price": 8866
+    },
+    {
+        "flight": {
+            "name": "Air China LTD",
+            "number": "1062",
+            "code": "CA1062",
+            "registration": "placeholder73"
+        },
+        "departure": {
+            "date": "2024-12-08T00:35:26.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-09T02:22:58.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 6527
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "114",
+            "code": "O3114",
+            "registration": "placeholder74"
+        },
+        "departure": {
+            "date": "2024-12-05T16:40:07.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-07T05:03:03.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shenzhen"
+        },
+        "price": 12234
+    },
+    {
+        "flight": {
+            "name": "Air China LTD",
+            "number": "1064",
+            "code": "CA1064",
+            "registration": "placeholder75"
+        },
+        "departure": {
+            "date": "2024-12-11T01:48:26.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-12T09:56:05.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shanghai Pudong International"
+        },
+        "price": 6527
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "218",
+            "code": "CF218",
+            "registration": "placeholder76"
+        },
+        "departure": {
+            "date": "2024-12-09T18:22:27.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-10T21:09:59.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shenzhen"
+        },
+        "price": 12234
+    },
+    {
+        "flight": {
+            "name": "Longhao Airlines",
+            "number": "4368",
+            "code": "GI4368",
+            "registration": "placeholder77"
+        },
+        "departure": {
+            "date": "2024-12-06T21:55:18.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kansai International"
+        },
+        "arrival": {
+            "date": "2024-12-08T10:23:53.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shenzhen"
+        },
+        "price": 12234
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "8484",
+            "code": "QF8484",
+            "registration": "placeholder78"
+        },
+        "departure": {
+            "date": "2024-12-06T19:46:27.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Palmerston North"
+        },
+        "arrival": {
+            "date": "2024-12-07T11:47:09.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Auckland International"
+        },
+        "price": 18960
+    },
+    {
+        "flight": {
+            "name": "Qantas",
+            "number": "8526",
+            "code": "QF8526",
+            "registration": "placeholder79"
+        },
+        "departure": {
+            "date": "2024-12-07T04:16:26.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kerikeri/Bay of Islands"
+        },
+        "arrival": {
+            "date": "2024-12-07T06:46:05.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Auckland International"
+        },
+        "price": 10490
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "4393",
+            "code": "SQ4393",
+            "registration": "placeholder80"
+        },
+        "departure": {
+            "date": "2024-12-09T13:34:38.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kerikeri/Bay of Islands"
+        },
+        "arrival": {
+            "date": "2024-12-10T22:29:55.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Auckland International"
+        },
+        "price": 10490
+    },
+    {
+        "flight": {
+            "name": "Air New Zealand",
+            "number": "5275",
+            "code": "NZ5275",
+            "registration": "ZK-NEM"
+        },
+        "departure": {
+            "date": "2024-12-09T03:06:49.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kerikeri/Bay of Islands"
+        },
+        "arrival": {
+            "date": "2024-12-10T21:21:48.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Auckland International"
+        },
+        "price": 10450
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "4538",
+            "code": "SQ4538",
+            "registration": "placeholder82"
+        },
+        "departure": {
+            "date": "2024-12-06T13:37:49.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tauranga"
+        },
+        "arrival": {
+            "date": "2024-12-07T12:08:54.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Christchurch International"
+        },
+        "price": 35569
+    },
+    {
+        "flight": {
+            "name": "Singapore Airlines",
+            "number": "4537",
+            "code": "SQ4537",
+            "registration": "placeholder83"
+        },
+        "departure": {
+            "date": "2024-12-11T16:40:11.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tauranga"
+        },
+        "arrival": {
+            "date": "2024-12-12T19:55:07.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Christchurch International"
+        },
+        "price": 35696
+    },
+    {
+        "flight": {
+            "name": "Air New Zealand",
+            "number": "5807",
+            "code": "NZ5807",
+            "registration": "ZK-MVX"
+        },
+        "departure": {
+            "date": "2024-12-10T17:42:54.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tauranga"
+        },
+        "arrival": {
+            "date": "2024-12-12T10:05:37.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Christchurch International"
+        },
+        "price": 35689
+    },
+    {
+        "flight": {
+            "name": "Spring Airlines Japan",
+            "number": "444",
+            "code": "IJ444",
+            "registration": "JA81YA"
+        },
+        "departure": {
+            "date": "2024-12-08T05:30:55.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kita Kyushu"
+        },
+        "arrival": {
+            "date": "2024-12-09T18:42:37.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Haneda Airport"
+        },
+        "price": 41790
+    },
+    {
+        "flight": {
+            "name": "United Airlines",
+            "number": "158",
+            "code": "UA158",
+            "registration": "N33262"
+        },
+        "departure": {
+            "date": "2024-12-09T11:16:42.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Babelthuap/Koror"
+        },
+        "arrival": {
+            "date": "2024-12-09T15:13:27.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Guam International"
+        },
+        "price": 65237
+    },
+    {
+        "flight": {
+            "name": "Asiana Airlines",
+            "number": "9262",
+            "code": "OZ9262",
+            "registration": "placeholder87"
+        },
+        "departure": {
+            "date": "2024-12-07T13:55:35.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kota-Kinabalu International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-08T12:01:04.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Gimhae"
+        },
+        "price": 17566
+    },
+    {
+        "flight": {
+            "name": "Air Busan",
+            "number": "762",
+            "code": "BX762",
+            "registration": "HL8257"
+        },
+        "departure": {
+            "date": "2024-12-09T20:51:25.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Kota-Kinabalu International Airport"
+        },
+        "arrival": {
+            "date": "2024-12-10T05:46:39.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Gimhae"
+        },
+        "price": 17566
+    },
+    {
+        "flight": {
+            "name": "Thai Airways International",
+            "number": "483",
+            "code": "TG483",
+            "registration": "HS-THK"
+        },
+        "departure": {
+            "date": "2024-12-12T01:12:51.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Suvarnabhumi International"
+        },
+        "arrival": {
+            "date": "2024-12-13T01:13:44.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Perth International"
+        },
+        "price": 10930
+    },
+    {
+        "flight": {
+            "name": "Thai Airways International",
+            "number": "954",
+            "code": "TG954",
+            "registration": "HS-THF"
+        },
+        "departure": {
+            "date": "2024-12-08T05:24:25.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Suvarnabhumi International"
+        },
+        "arrival": {
+            "date": "2024-12-08T22:36:33.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Gardermoen"
+        },
+        "price": 43357
+    },
+    {
+        "flight": {
+            "name": "Thai Airways International",
+            "number": "644",
+            "code": "TG644",
+            "registration": "HS-THZ"
+        },
+        "departure": {
+            "date": "2024-12-05T21:51:15.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Suvarnabhumi International"
+        },
+        "arrival": {
+            "date": "2024-12-07T02:51:47.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Chu-Bu Centrair International (Central Japan International)"
+        },
+        "price": 21000
+    },
+    {
+        "flight": {
+            "name": "Thai Airways International",
+            "number": "930",
+            "code": "TG930",
+            "registration": "HS-TKO"
+        },
+        "departure": {
+            "date": "2024-12-06T20:21:25.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Suvarnabhumi International"
+        },
+        "arrival": {
+            "date": "2024-12-08T15:26:17.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Charles De Gaulle"
+        },
+        "price": 47776
+    },
+    {
+        "flight": {
+            "name": "Thai Airways International",
+            "number": "960",
+            "code": "TG960",
+            "registration": "HS-THJ"
+        },
+        "departure": {
+            "date": "2024-12-10T10:39:09.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Suvarnabhumi International"
+        },
+        "arrival": {
+            "date": "2024-12-11T23:28:20.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Arlanda"
+        },
+        "price": 50030
+    },
+    {
+        "flight": {
+            "name": "Thai Airways International",
+            "number": "950",
+            "code": "TG950",
+            "registration": "HS-TKM"
+        },
+        "departure": {
+            "date": "2024-12-07T14:06:38.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Suvarnabhumi International"
+        },
+        "arrival": {
+            "date": "2024-12-07T19:15:54.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Kastrup"
+        },
+        "price": 43187
+    },
+    {
+        "flight": {
+            "name": "North-Western Cargo International Airlines",
+            "number": "9643",
+            "code": "CO9643",
+            "registration": "B-2866"
+        },
+        "departure": {
+            "date": "2024-12-10T05:02:04.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shuangliu"
+        },
+        "arrival": {
+            "date": "2024-12-10T18:45:14.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hangzhou"
+        },
+        "price": 7803
+    },
+    {
+        "flight": {
+            "name": "China Postal Airlines",
+            "number": "9095",
+            "code": "CF9095",
+            "registration": "B-2831"
+        },
+        "departure": {
+            "date": "2024-12-05T13:35:52.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shuangliu"
+        },
+        "arrival": {
+            "date": "2024-12-07T08:17:49.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Nanjing Lukou International Airport"
+        },
+        "price": 7137
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7405",
+            "code": "O37405",
+            "registration": "B-208Q"
+        },
+        "departure": {
+            "date": "2024-12-12T00:26:05.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Shuangliu"
+        },
+        "arrival": {
+            "date": "2024-12-13T08:53:18.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Shenzhen"
+        },
+        "price": 26727
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7232",
+            "code": "O3723",
+            "registration": "B-29412"
+        },
+        "departure": {
+            "date": "2024-12-05T20:49:59.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tianhe International"
+        },
+        "arrival": {
+            "date": "2024-12-06T14:20:10.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hangzhou"
+        },
+        "price": 28845
+    },
+    {
+        "flight": {
+            "name": "SF Airlines",
+            "number": "7230",
+            "code": "O37230",
+            "registration": "placeholder99"
+        },
+        "departure": {
+            "date": "2024-12-06T06:57:21.898604",
+            "country": "New Zealand",
+            "city": "Christchurch",
+            "airport": "Tianhe International"
+        },
+        "arrival": {
+            "date": "2024-12-08T03:39:59.898604",
+            "country": "Singapore",
+            "city": "Singapore",
+            "airport": "Hangzhou"
+        },
+        "price": 28845
+    }
+]

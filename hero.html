@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/notif.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Airline Ticket Booking and Price Tracker</h1>
+        <p>Search, Book, and Track Flights Efficiently!</p>
+
+        <div class="user-info">
+            <button><a href="graph_vis.html" class="top_btn">View Graph</a></button>
+            <button id="viewBookedFlightsButton" class="top_btn">Booked</button>
+            <span id="usernameDisplay">Not Logged In</span>
+            <button id="logout-btn" class="top_btn">Logout</button>
+        </div>
+        <div id="userInfoSection" class="user-info-section"></div>
+    </header>
+
+    <main>
+        <div id="notifContainer"></div>
+
+        <section class="search-section">
+            <h2>Search Flights</h2>
+            <div class="inputs">
+                <input type="text" id="sourceInput" placeholder="From: Country / City / Airport">
+                <input type="text" id="destinationInput" placeholder="To: Country / City / Airport">
+                <input type="text" id="airlineInput" placeholder="Enter Airline">
+                <input type="date" id="dateInput" placeholder="Enter Date">
+                <input type="number" id="priceThreshold" placeholder="Enter Price Cap">
+                <button id="startTrackingButton">Start Price Tracking</button>
+                <button id="minMaxTracking">Get Min-Max</button>        
+                <button id="suggestRoutesButton">Suggest Routes</button>        
+                <button id="checkWeatherForFlights">Give Weather Call</button>
+                <button id="bookFlightButton" class="top_btn">Book Selected Flight</button>
+                <button id="forceUpdateButton">Force Price Update</button>
+                
+            </div>
+        </section>
+
+        <section class="flights-section">
+            <h2>Available Flights</h2>
+            <div id="flightsContainer" class="flights-container"></div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Airline Booking System. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/log_control.js"></script>
+    <script src="scripts/app.js" type="module"></script>
+</body>
+</html>
