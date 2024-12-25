@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Flight Network Visualization</title>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.0.0/dist/vis-network.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        #graphContainer {
+            width: 70%;
+            height: 600px;
+            margin: 20px auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        #controls {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #infoBox {
+            position: fixed;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center; padding: 20px;">Flight Network Visualization</h1>
+    <div id="controls">
+        <label for="modeSelector">Select View Mode:</label>
+        <select id="modeSelector">
+            <option value="city">By City</option>
+            <option value="country">By Country</option>
+            <option value="airport">By Airport</option>
+            <option value="price">By Price</option>
+        </select>
+    </div>
+    <div id="graphContainer"></div>
+    <div id="infoBox"></div>
+
+    <script type="module">
+        async function fetchFlightData() {
+            const response = await fetch('files/flights.json');
+            const flights = await response.json();
+            return flights;
+        }
+
+        function generateGraph(flights, mode) {
+            const nodes = [];
+            const edges = [];
+            const infoBox = document.getElementById('infoBox');
+            const nodeIds = new Map(); 
+
+            flights.forEach(flight => {
+                let depNode, arrNode, depLabel, arrLabel;
+
+                if (mode === 'city') {
+                    depNode = flight.departure.city;
+                    arrNode = flight.arrival.city;
+                    depLabel = flight.departure.city;
+                    arrLabel = flight.arrival.city;
+                } else if (mode === 'country') {
+                    depNode = flight.departure.country;
+                    arrNode = flight.arrival.country;
+                    depLabel = flight.departure.country;
+                    arrLabel = flight.arrv_country;
+                } else if (mode === 'airport') {
+                    depNode = flight.departure.airport;
+                    arrNode = flight.arrival.airport;
+                    depLabel = flight.departure.airport;
+                    arrLabel = flight.arrival.airport;
+                } else if (mode === 'price') {
+                    depNode = flight.dep_country;
+                    arrNode = flight.arrival.country;
+                    depLabel = flight.departure.country;
+                    arrLabel = flight.arrival.country;
+                }
+
+                if (!nodeIds.has(depNode)) {
+                    nodeIds.set(depNode, nodes.length);
+                    nodes.push({
+                        id: nodes.length,
+                        label: depLabel,
+                        title: depLabel
+                    });
+                }
+
+                if (!nodeIds.has(arrNode)) {
+                    nodeIds.set(arrNode, nodes.length);
+                    nodes.push({
+                        id: nodes.length,
+                        label: arrLabel,
+                        title: arrLabel
+                    });
+                }
+
+                const sourceId = nodeIds.get(depNode);
+                const destId = nodeIds.get(arrNode);
+
+                edges.push({
+                    from: sourceId,
+                    to: destId,
+                    arrows: 'to', // Show arrow src-des
+                    label: `PKR ${flight.price}`, // Show price label
+                    title: `Flight: ${flight.flight.code}\nPrice: PKR ${flight.price}\nFrom: ${depLabel}\nTo: ${arrLabel}`
+                });
+            });
+
+            const data = {
+                nodes: nodes,
+                edges: edges
+            };
+
+            const options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 20,
+                    font: {
+                        size: 16
+                    },
+                    borderWidth: 2
+                },
+                edges: {
+                    font: {
+                        size: 14,
+                        align: 'middle'
+                    },
+                    width: 2,
+                    color: {
+                        color: '#007bff',
+                        highlight: '#ff0000'
+                    }
+                },
+                physics: {
+                    enabled: false,
+                    barnesHut: {
+                        gravitationalConstant: -2000,
+                        centralGravity: 0.3,
+                        springLength: 95,
+                        springConstant: 0.04
+                    },
+                    repulsion: {
+                        nodeDistance: 200
+                    }
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 200,
+                    hideEdgesOnDrag: true
+                }
+            };
+
+            const container = document.getElementById('graphContainer');
+            const network = new vis.Network(container, data, options);
+
+            network.on('hoverNode', function (event) {
+                const nodeId = event.node;
+                const nodeData = nodes.find(node => node.id === nodeId); // Safely find node data by ID
+
+                if (!nodeData) return;
+
+                const connectedEdges = network.getConnectedEdges(nodeId);
+
+                let info = `Node: ${nodeData.title}\nConnected Flights:`;
+                
+                connectedEdges.forEach(edgeId => {
+                    const edge = edges.find(edge => edge.id === edgeId);  // Correction edge by edgeId
+                    if (edge) {
+                        const connectedNodeId = edge.from === nodeId ? edge.to : edge.from; // Get connected node
+                        const connectedNode = nodes.find(node => node.id === connectedNodeId);
+                        const destinationLabel = connectedNode ? connectedNode.label : '';
+                        info += `\nwith: ${destinationLabel}`; // Disp dest nm prc
+                    }
+                });
+
+                infoBox.textContent = info;
+                infoBox.style.display = 'block';
+            });
+
+            network.on('blurNode', function () {
+                infoBox.style.display = 'none';
+            });
+        }
+
+        async function setup() {
+            const flights = await fetchFlightData();
+            const modeSelector = document.getElementById('modeSelector');
+
+            generateGraph(flights, modeSelector.value);
+
+            modeSelector.addEventListener('change', function () {
+                generateGraph(flights, modeSelector.value);
+            });
+        }
+
+        setup();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+[submodule "JSCommon"]
+	path = JSCommon
+	url = https://github.com/AdeemAmir/JSCommon
