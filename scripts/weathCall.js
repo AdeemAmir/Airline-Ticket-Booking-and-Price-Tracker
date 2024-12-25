@@ -1,4 +1,4 @@
-import { xpCol } from '../JSCommon/manage.mjs';
+import { xpCol } from '../CommonJS/manage.mjs';
 
 let apiW = { key: '', base: "https://api.openweathermap.org/data/2.5/" };
 xpCol().then(x => {apiW.key = x;});
