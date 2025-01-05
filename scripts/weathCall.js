@@ -2,7 +2,6 @@ import { xpCol } from '../CommonJS/manage.mjs';
 
 let apiW = { key: '', base: "https://api.openweathermap.org/data/2.5/" };
 xpCol(1).then(x => {apiW.key = x;});
-console.log(apiW)
 /**
  * Get weather information for a given city and country.
  * @param {string} city - City name.
